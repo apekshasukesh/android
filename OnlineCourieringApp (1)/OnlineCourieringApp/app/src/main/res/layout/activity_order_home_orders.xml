@@ -1,0 +1,255 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btnbg"
+    tools:context=".OrderHomeOrdersActivity" >
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/red"
+        tools:ignore="UselessLeaf,UnknownIdInLayout" >
+
+        <LinearLayout
+            android:id="@+id/titlelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/R3"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/R1" >
+
+          <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent" >
+            
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <LinearLayout
+                android:id="@+id/group1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/topspace"
+                    android:layout_marginTop="@dimen/topspace"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/Pickupaddress"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    tools:ignore="NestedWeights"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/orderno_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/orderno"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/your_orderno_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:textColor="@color/white">
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4" >
+
+                <TextView
+                    android:id="@+id/pickupdate_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/pickupdate"
+                    android:textColor="@color/white" />
+
+                <Spinner
+                    android:id="@+id/date_Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/date" />
+
+                <Spinner
+                    android:id="@+id/month_Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/month" />
+
+                <Spinner
+                    android:id="@+id/year_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/year" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/group4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/time_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/time"
+                    android:textColor="@color/white"
+                    tools:ignore="NestedWeights" />
+
+                <Spinner
+                    android:id="@+id/time_Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/time" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/street_TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/servicetype"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/servicetype_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"
+                     />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/red" >
+
+        <LinearLayout
+            android:id="@+id/H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <LinearLayout
+                android:id="@+id/V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/Oprevious_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/prev"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>/>
+
+                <Button
+                    android:id="@+id/Ocancel_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>/>
+
+                <Button
+                    android:id="@+id/Onext_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/next"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+</RelativeLayout>

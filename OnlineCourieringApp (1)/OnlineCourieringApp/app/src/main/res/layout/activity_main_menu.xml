@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginActivity"
+    tools:ignore="UselessParent,UnknownIdInLayout">
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false" >
+
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"           
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <LinearLayout
+                android:id="@+id/group1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/topspace"
+                    android:layout_marginTop="@dimen/topspace"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/mainmenu"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:ignore="NestedWeights"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/register_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxWidth="25dp"
+                    android:text="@string/register"
+                    android:background="@color/btn"/>
+                
+                <Button
+                    android:id="@+id/login_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxWidth="25dp"
+                    android:text="@string/login"
+                    android:background="@color/btn"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image"
+                    android:maxHeight="@dimen/titledp"
+                    android:maxWidth="@dimen/titledp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/simily_launcher" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                  <Button
+                      android:id="@+id/administrator_Button"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="@string/administrator"
+                      android:background="@color/btn"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/red" >
+
+        <LinearLayout
+            android:id="@+id/H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/exit_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/exit"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

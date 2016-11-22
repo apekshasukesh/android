@@ -1,0 +1,231 @@
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomeActivity" >
+        
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/red"
+        tools:ignore="UselessLeaf,UnknownIdInLayout" >
+
+        <LinearLayout
+            android:id="@+id/titlelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/R3"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/R1"
+        android:background="@color/btnbg" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent" >
+
+            <LinearLayout
+                android:id="@+id/form_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btnbg"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UselessParent" >
+
+                <LinearLayout
+                    android:id="@+id/group1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/topspace"
+                        android:layout_marginTop="@dimen/topspace"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/searching"
+                        android:background="@color/colorPrimary"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        tools:ignore="NestedWeights"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/group2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3" >
+
+                    <TextView
+                        android:id="@+id/from_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/enteryourorderno"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/AOrderno_editText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.66"
+                        android:ems="10"
+                        android:inputType="textPostalAddress"
+                        >
+
+
+                    </EditText>
+
+                    <Button
+                        android:id="@+id/AContinue_Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="@string/continueform"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/group3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2" >
+
+                    <TextView
+                        android:id="@+id/Semail_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/status"
+                        android:textColor="@color/white" />
+
+                    <Spinner
+                        android:id="@+id/AStatus_Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:entries="@array/sat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/group4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <ScrollView
+                        android:id="@+id/scrollView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="none"
+                        tools:ignore="NestedScrolling" >
+
+	                    <TableLayout
+	                        android:id="@+id/TableMain"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="0dp"
+	                        android:isScrollContainer="true"
+	                        android:scrollbarStyle="insideInset"
+	                        android:scrollbars="horizontal|vertical"
+	                        android:stretchColumns="1,0,0"
+	                        tools:ignore="NestedWeights" >
+
+	                    </TableLayout>
+                 </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/group5"
+                    android:layout_width="278dp"
+                    android:layout_height="80dp"
+                    android:weightSum="1" >
+
+                    <Button
+                        android:id="@+id/AChange_Button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.81"
+                        android:text="@string/changestatus"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/R3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/red" >
+
+        <LinearLayout
+            android:id="@+id/H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+            <LinearLayout
+                android:id="@+id/V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/ASignout_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.69"
+                    android:text="@string/logout"
+                    android:background="@android:color/black"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

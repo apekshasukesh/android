@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btnbg"
+    tools:context=".HomeActivity"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/searchOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchOrder"
+        tools:ignore="NestedWeights"
+        android:background="@color/btnbg"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/Parcel_Details_Button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ordertrackingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ordertracking"
+        tools:ignore="NestedWeights"
+        android:background="@color/btnbg"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/neworderButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Parcel_Details_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parceldetails"
+        tools:ignore="NestedWeights"
+        android:background="@color/btnbg"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/ordertrackingButton"
+        android:layout_alignEnd="@+id/ordertrackingButton" />
+
+    <Button
+        android:id="@+id/neworderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/neworder"
+        tools:ignore="NestedWeights"
+
+        android:background="@color/btnbg"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/searchOrderButton" />
+
+    <Button
+        android:id="@+id/logout_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:background="@color/btnbg"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_below="@+id/searchOrderButton"
+        android:layout_alignEnd="@+id/searchOrderButton" />
+
+</RelativeLayout>

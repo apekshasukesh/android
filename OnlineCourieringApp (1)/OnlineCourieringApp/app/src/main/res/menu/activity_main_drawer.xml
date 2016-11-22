@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Homepage" />
+        <item android:id="@+id/login" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Login" />
+        <item android:id="@+id/reg" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Registration" />
+        <item android:id="@+id/admin_login" android:icon="@android:drawable/ic_menu_manage"
+            android:title="AdminLogin" />
+    </group>
+
+    <item android:title="TRACKING">
+        <menu>
+            <item android:id="@+id/track_parcel" android:icon="@android:drawable/ic_menu_share"
+                android:title="Track_parcel" />
+            <item android:id="@+id/search_parcel" android:icon="@android:drawable/ic_menu_send"
+                android:title="Search_parcel" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:5:5-122:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.sukes001.onlinecourieringapp.MainActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:12:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.ViewOrderActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:24:13-62
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:25:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:23:13-103
+intent-filter#android.intent.action.MAIN+android.intent.category.ALTERNATIVE
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:26:13-30:29
+category#android.intent.category.ALTERNATIVE
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:29:17-80
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:29:27-77
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.UserDetailsActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:32:9-41:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:34:13-64
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:35:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:33:13-105
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.OrderHomeActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:42:9-51:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:44:13-62
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:45:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:43:13-103
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.SignCredentialsActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:52:9-61:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:54:13-68
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:55:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:53:13-109
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.OrderHomeDeliveryActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:62:9-71:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:64:13-71
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:65:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:63:13-111
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.OrderHomeOrdersActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:72:9-81:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:74:13-69
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:75:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:73:13-109
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.OrderHomePackageDetailsActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:82:9-91:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:84:13-78
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:85:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:83:13-117
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.Order_Home_ReviewOrderActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:92:9-101:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:94:13-77
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:95:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:93:13-116
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.FinalOrderActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:102:9-111:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:104:13-63
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:105:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:103:13-104
+activity#com.example.sukes001.onlinecourieringapp.onlinecouriering.AdminHomeActivity
+ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:112:9-121:20
+	android:label
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:114:13-62
+	android:theme
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:115:13-77
+	android:name
+		ADDED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml:113:13-103
+uses-sdk
+INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/sukes001/Desktop/OnlineCourieringApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sukes001/Desktop/OnlineCourieringApp/app/src/main/AndroidManifest.xml
